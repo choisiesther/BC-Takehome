@@ -1,0 +1,38 @@
+{
+    "_comment": "DO NOT CHANGE THE DATA TO RESOLVE ISSUES",
+    "key": "All-Bright C Serum",
+    "title": "Counter+ All-Bright C Serum",
+    "sku": "100000750",
+    "extras": {
+        "labels": {
+            "bestSeller": true,
+            "new": false
+        }
+    },
+    "size": "30 ml / 1 fl oz",
+    "maxNumber": 10,
+    "description": "<p>Brighten up with this game-changing serum. This ultra-potent 10% blend of two forms of vitamin C instantly brightens skin and helps reduce the appearance of existing dark spots, while antioxidant-rich turmeric and camu camu extracts help protect against new ones. The formula also helps defend skin from the damaging effects of environmental stressors—revealing a more youthful-looking complexion.</p><p><strong>Benefits:</strong></p><ul><li>A unique blend of two ultra-stable forms of vitamin C delivers a supercharged 10% potency</li><li>Our quick-absorbing formula allows for easy layering and an instant boost of radiance</li><li>Leaves skin glowing and promotes an even skin tone</li></ul><p><strong>After eight weeks:*</strong></p><ul><li>100% said skin looked brighter</li><li>94% said it reduced the appearance of dark spots</li><li>97% said skin looked more youthful</li><li>94% said skin tone looked more even</li></ul><p><strong>Clinically proven to:**</strong></p><ul><li>Even skin tone</li><li>Improve skin radiance/brightness</li></ul><p>* Based on a 32-subject consumer perception study after eight weeks of use.<br />** Based on a 32-subject clinical study after eight weeks.</p>.",
+    "price": "79",
+    "image": {
+        "url": "https://images.beautycounter.com/product-images%2F100000750%2Fimgs%2FCOUNTER%2B_ALL_BRIGHT_C_SERUM_PDP_SEPHORA.jpg?alt=media&auto=format&lossless=false&q=60&w=900",
+        "alt": "Yellow glass bottle with white pump. Also seen in Sephora"
+    },
+    "featuredIngredients": [
+        {
+            "title": "5% Tetrahexyldecyl Ascorbate (Vitamin C)",
+            "description": "Antioxidant that reduces the appearance of dark spots and boosts skin brightening, to reveal more youthful-looking skin."
+        },
+        {
+            "title": "5% Bis-Glyceryl Ascorbate (Vitamin C)",
+            "description": "Moisturizes skin while providing antioxidant benefits known to protect skin from damaging environmental stressors. Helps improve the appearance of fine lines and wrinkles."
+        },
+        {
+            "title": "Curcuma Longa (Turmeric) Root Extract",
+            "description": "The serum’s vibrant hue? That’s thanks to turmeric, an antioxidant superstar that helps even skin tone and improve the appearance of fine lines and wrinkles."
+        },
+        {
+            "title": "Myrciaria Dubia (Camu Camu) Fruit Extract",
+            "description": "This powerful antioxidant helps reduce the appearance of dark spots while brightening, to visually improve signs of skin fatigue."
+        }
+    ]
+}

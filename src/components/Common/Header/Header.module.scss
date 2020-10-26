@@ -1,0 +1,39 @@
+@import "~include-media/dist/_include-media.scss";
+
+.header {
+    background: #fefefe;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    @include media("<tablet") {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        width: 100%;
+    }
+}
+
+.menuContainer, .logoContainer, .cartContainer {
+    display: flex;
+    align-items: center;
+    flex: 1 0 calc(50% - 52px);
+}
+
+.logoContainer {
+    justify-content: flex-start;
+    padding-left: 16px;
+}
+
+.logo {
+    height: 55px;
+    margin: 16px 0 16px 10px;
+}
+
+.cartContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 16px;
+}

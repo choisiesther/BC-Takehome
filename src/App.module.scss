@@ -1,0 +1,12 @@
+@import "~include-media/dist/_include-media.scss";
+
+.main {
+  min-height: calc(100vh - (64px + 55px + 30px));
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 16px;
+
+  @include media("<tablet") {
+    max-width: 92vw;
+  }
+}

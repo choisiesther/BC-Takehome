@@ -1,0 +1,41 @@
+@import "~include-media/dist/_include-media.scss";
+
+.root {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-areas:
+        "prodimg prodinfo"
+        "prodimg proddesc";
+    gap: 16px;
+
+    @include media("<tablet") {
+        grid-template-columns: 100%;
+        grid-template-areas: 
+            "prodimg"
+            "prodinfo"
+            "proddesc";
+        width: 100;
+        margin: 0 auto;
+        gap: 0;
+    }
+
+}
+
+.productImageContainer {
+    grid-area: prodimg;
+    grid-row: 1 / -1;
+
+    @include media("<tablet") {
+        grid-row: auto;
+    }
+
+}
+
+.productInfoContainer {
+    grid-area: prodinfo;
+}
+
+.productDescriptionContainer {
+    grid-area: proddesc;
+}
+

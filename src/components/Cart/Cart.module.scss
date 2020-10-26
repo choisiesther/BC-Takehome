@@ -1,0 +1,19 @@
+.root {
+    margin-right: 10px;
+}
+
+.cartNotification {
+    color: #fff;
+    background: #e5503f;
+    border-radius: 25px;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    font-size: 10px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -5px;
+    top: 0;
+}

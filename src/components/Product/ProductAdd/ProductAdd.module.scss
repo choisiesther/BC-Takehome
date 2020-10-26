@@ -1,0 +1,16 @@
+.root {
+    display: flex;
+    padding: 20px 0 0;
+    margin: 16px 0;
+}
+
+.quantityContainer {
+    border: 1px solid #dcddde;
+    margin-right: 16px;
+    max-width: calc(100px + 2em);
+    display: flex;
+}
+
+.button {
+    background: #231f20;
+}
