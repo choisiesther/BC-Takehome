@@ -20,6 +20,7 @@ test('all things ProductAdd', () => {
   expect(quantityInput).toBeInTheDocument();
   expect(screen.getAllByTestId("productAdd-QuantityInput-1111").length).toBe(1);
 
+  //If I had more time I would've added test for maximum amount of items
   fireEvent.click(increaseButton);
 
   expect(quantityInput.value).toBe(2);

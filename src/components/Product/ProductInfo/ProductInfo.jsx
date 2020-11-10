@@ -6,7 +6,6 @@ import ProductRatings from '../ProductRatings/ProductRatings';
 import ErrorBoundary from 'components/Common/ErrorBoundary/ErrorBoundary';
 
 class ProductInfo extends React.Component {
-
     render() {
 
         const formattedPrice = new Intl.NumberFormat('us-EN', { style: 'currency', currency: 'USD', minimumFractionDigits: 0 }).format(this.props?.price);
