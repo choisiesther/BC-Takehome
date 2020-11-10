@@ -12,7 +12,6 @@ import CloseIcon from "@material-ui/icons/Close";
 //if I had more time I would've changed this component with hooks
 //I wasn't sure if add a quantity of items to my bag up to the maximum number allowed for an item
 //meant up to max amount of 10 or up to 9 but I made it so users can add up to 10 items 
-
 class ProductAdd extends React.Component {
   state = {
     count: 1,
